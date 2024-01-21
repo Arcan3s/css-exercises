@@ -1,9 +1,22 @@
+/* CSS for all odd num html elements using a class */
+/* background-color uses hex color */
 .odd-num {
-    background-color: #f79ea9;
+    background-color: #f79ea9; 
     font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
+/* CSS to change font of class */
+.font-size {
+    font-size: 24px;
+}
+
+/* CSS for num 2 element using unique ID */
 #num2 {
     color: rgb(0, 0, 255);
-    font-size: 32px
+    font-size: 36px;
+}
+
+#num4 {
+    background-color: hsl(106, 82%, 68%);
+    font-weight: bold;
 }

@@ -1,1 +1,11 @@
 /* Add CSS Styling */
+/* Chaining selectors allows to use some same class rules while also adding the ability to add different rules to that specific element */
+.avatar.proportioned {
+    height: auto;
+    width: 300px;
+}
+
+.avatar.distorted {
+    height: 400px;
+    width: 200px;
+}

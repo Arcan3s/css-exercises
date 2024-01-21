@@ -8,7 +8,7 @@
 /* Below are some other possible descendant combinators:
 
 div p
-div > p
+div > p (selects p type selector if an immediate descendent of div)
 div .text
 .container p
 
