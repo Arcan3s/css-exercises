@@ -7,21 +7,37 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
+  /* Creates 8px of space around border of content boxes */
 }
 
 .title {
   background: #e3f4ff;
+  margin: 0 0 8px;
+  /* top right/left bottom */
+  /* must specify margin-top as 0 bc default margin for body is 8px */
+  font-size: 16px;
+  padding: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  margin-bottom: 8px;
+  padding: 16px 8px;
+  /* top/bottom left/right */
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 8px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: 0 auto;
+  /* centers button */
+  padding: 8px 24px;
 }
